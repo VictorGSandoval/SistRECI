@@ -1,0 +1,41 @@
+.iniciousuariofontcolor{  
+/*    FONDO DE MATERIAL DESING CSS*/
+    -fx-background-color: linear-gradient(to bottom left, #4FE5CD , #4167AC);
+    -fx-background-radius: 18 18 18 18;
+}
+
+.LoginFRM {
+    -fx-background-color: #fff ;
+    -fx-effect: dropshadow( gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0 );
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+}
+
+.iniciousuario2fontcolor {
+/*    stage.initStyle(StageStyle.TRANSPARENT); CODIGO PARA PESTAÑAS PRINCIPALES*/
+    -fx-background-color: linear-gradient(to bottom left, #fff , #fff);
+/*    -fx-background-size: 800 900;*/
+    -fx-background-radius: 18 18 18 18;
+/*    -fx-border-radius: 18 18 18 18;*/
+/*    -fx-border-width:5;*/
+    
+}
+.btniniciar{
+    
+    /*COLOR DE BOTON CON TEXTO BLANCO*/ 
+    -fx-background-color: #07D102 ;
+    -fx-text-fill : #ffffff ;
+}
+
+.btniniciar:hover{
+    -fx-text-fill : #431FA0;
+}
+
+.btniniciar:pressed{
+    -fx-text-fill : #371897;
+}
+
+.btniniciar:active{
+    -fx-text-fill : #4FE5CD;
+}
+
