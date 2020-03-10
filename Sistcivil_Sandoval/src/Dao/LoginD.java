@@ -91,15 +91,16 @@ public class LoginD {
         try {
             if (cn != null) {
                 pst = cn.prepareStatement(sql);
-                pst.setInt(1, Integer.parseInt(clave));
+                pst.setString(1, clave); 
+//                 pst.setString(1, loginM.getUSRLOG());
                 ResultSet rs = pst.executeQuery();
                 if (rs.next()) {
 //                   
-                    loginM.setIDLOG(Integer.parseInt(rs.getString(1)));
                     loginM.setUSRLOG(rs.getString(2));
                     loginM.setPSSWLOG(rs.getString(3));
                     loginM.setTIPLOG(rs.getString(4));
                     loginM.setESTLOG(rs.getString(5));
+                    loginM.setIDLOG(Integer.parseInt(rs.getString(1)));
 //                    
                 }
 //                discoVO.setResultado("Busqueda exitosa");

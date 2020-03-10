@@ -796,7 +796,7 @@ public class PersonaC extends javax.swing.JFrame {
         u_nombre.setText("");
         u_contraseña.setText("");
         u_tipo.setSelectedItem("SELECCIONE");
-        u_estado.setSelectedItem("SELECCIONE");
+//        u_estado.setSelectedItem("SELECCIONE");
 
     }//GEN-LAST:event_limpiarUsuarioActionPerformed
 
@@ -806,7 +806,7 @@ public class PersonaC extends javax.swing.JFrame {
         u_nombre.setText("");
         u_contraseña.setText("");
         u_tipo.setSelectedItem("SELECCIONE");
-        u_estado.setSelectedItem("SELECCIONE");
+//        u_estado.setSelectedItem("SELECCIONE");
     }//GEN-LAST:event_eliminarUsuarioActionPerformed
 
     private void actualizarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_actualizarUsuarioActionPerformed
@@ -815,13 +815,13 @@ public class PersonaC extends javax.swing.JFrame {
         log.setUSRLOG(u_nombre.getText());
         log.setPSSWLOG(u_contraseña.getText());
         log.setTIPLOG(u_tipo.getSelectedItem().toString());
-        log.setESTLOG(u_estado.getSelectedItem().toString());
+//        log.setESTLOG(u_estado.getSelectedItem().toString());
         String resp = LoginD.actualizarLogin(log);
         u_id.setText(resp);
         u_nombre.setText("");
         u_contraseña.setText("");
         u_tipo.setSelectedItem("SELECCIONE");
-        u_estado.setSelectedItem("SELECCIONE");
+//        u_estado.setSelectedItem("SELECCIONE");
     }//GEN-LAST:event_actualizarUsuarioActionPerformed
 
     private void registrarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registrarUsuarioActionPerformed
@@ -834,7 +834,7 @@ public class PersonaC extends javax.swing.JFrame {
             pst.setString(1, u_nombre.getText());
             pst.setString(2, u_contraseña.getText());
             pst.setString(3, u_tipo.getSelectedItem().toString());
-            pst.setString(4, u_estado.getSelectedItem().toString());
+//            pst.setString(4, u_estado.getSelectedItem().toString());
             //               pst.setInt(5, Integer.parseInt(u_persona.getText()));
 
             pst.executeUpdate();
@@ -870,7 +870,7 @@ public class PersonaC extends javax.swing.JFrame {
         actaM.setFECREGACTA(a_fechaacta.getText());
         actaM.setOBSACTA(a_obs.getText());
         actaM.setTIPACTA(a_tipo.getSelectedItem().toString());
-        actaM.setESTACTA(a_estado.getSelectedItem().toString());
+//        actaM.setESTACTA(a_estado.getSelectedItem().toString());
         String resp = ActaD.registrarActa(actaM);
 
         a_id.setText(resp);
@@ -878,7 +878,7 @@ public class PersonaC extends javax.swing.JFrame {
         a_fechaacta.setText("");
         a_obs.setText("");
         a_tipo.setSelectedItem("SELECCIONE");
-        a_estado.setSelectedItem("SELECCIONE");
+//        a_estado.setSelectedItem("SELECCIONE");
     }//GEN-LAST:event_agregarActaActionPerformed
 
     private void BuscarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuscarUsuarioActionPerformed
@@ -887,7 +887,7 @@ public class PersonaC extends javax.swing.JFrame {
         u_nombre.setText(log.getUSRLOG());
         u_contraseña.setText(log.getPSSWLOG());
         u_tipo.setSelectedItem(log.getTIPLOG());
-        u_estado.setSelectedItem(log.getESTLOG());
+//        u_estado.setSelectedItem(log.getESTLOG());
 
     }//GEN-LAST:event_BuscarUsuarioActionPerformed
 
@@ -898,7 +898,7 @@ public class PersonaC extends javax.swing.JFrame {
         act.setFECREGACTA(a_fechaacta.getText());
         act.setOBSACTA(a_obs.getText());
         act.setTIPACTA(a_tipo.getSelectedItem().toString());
-        act.setESTACTA(a_estado.getSelectedItem().toString());
+//        act.setESTACTA(a_estado.getSelectedItem().toString());
         String resp = ActaD.actualizarActa(act);
  
         a_id.setText(resp);
@@ -906,7 +906,7 @@ public class PersonaC extends javax.swing.JFrame {
         a_fechaacta.setText("01-01-2020");
         a_obs.setText("");
         a_tipo.setSelectedItem("SELECCIONE");
-        a_estado.setSelectedItem("SELECCIONE");
+//        a_estado.setSelectedItem("SELECCIONE");
     }//GEN-LAST:event_editarActaActionPerformed
 
     private void eliminarActaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eliminarActaActionPerformed
@@ -916,7 +916,7 @@ public class PersonaC extends javax.swing.JFrame {
         a_fechaacta.setText("");
         a_obs.setText("");
         a_tipo.setSelectedItem("SELECCIONE");
-        a_estado.setSelectedItem("SELECCIONE");
+//        a_estado.setSelectedItem("SELECCIONE");
     }//GEN-LAST:event_eliminarActaActionPerformed
 
     private void limpiarActaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_limpiarActaActionPerformed
@@ -925,7 +925,7 @@ public class PersonaC extends javax.swing.JFrame {
         a_fechaacta.setText("");
         a_obs.setText("");
         a_tipo.setSelectedItem("SELECCIONE");
-        a_estado.setSelectedItem("SELECCIONE");
+//        a_estado.setSelectedItem("SELECCIONE");
     }//GEN-LAST:event_limpiarActaActionPerformed
 
     private void BuscarActaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuscarActaActionPerformed
@@ -935,7 +935,7 @@ public class PersonaC extends javax.swing.JFrame {
         a_fechaacta.setText(act.getFECREGACTA());
         a_obs.setText(act.getOBSACTA());
         a_tipo.setSelectedItem(act.getTIPACTA());
-        a_estado.setSelectedItem(act.getESTACTA());
+//        a_estado.setSelectedItem(act.getESTACTA());
        
     }//GEN-LAST:event_BuscarActaActionPerformed
 
@@ -997,7 +997,7 @@ public class PersonaC extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_listarPerActionPerformed
 
     private void bucarPersonaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bucarPersonaActionPerformed
-        PersonaM per = PersonaD.buscarPersona(p_id.getText());
+        PersonaM per = PersonaD.buscarPersona(p_dni.getText());
         p_id.setText(per.getIDPER()+"");
         p_paterno.setText(per.getAPEPATPER());
         p_materno.setText(per.getAPEMATERPER());
@@ -1005,7 +1005,7 @@ public class PersonaC extends javax.swing.JFrame {
         p_nacimiento.setText(per.getFECNACPER());
         p_dni.setText(per.getDNIPER());
         p_direccion.setText(per.getDIRPER());
-        p_genero.setSelectedItem(per.getGENPER());
+//        p_genero.setSelectedItem(per.getGENPER());
         p_celular.setText(per.getCELPER());
         p_estado.setSelectedItem(per.getESTPER());
         p_estadocivil.setSelectedItem(per.getESTCIVPER());
@@ -1024,7 +1024,7 @@ public class PersonaC extends javax.swing.JFrame {
         p_nacimiento.setText("");
         p_dni.setText("");
         p_direccion.setText("");
-        p_genero.setSelectedItem("SELECCIONE");
+//        p_genero.setSelectedItem("SELECCIONE");
         p_celular.setText("");
         p_estado.setSelectedItem("SELECCIONE");
         p_estadocivil.setSelectedItem("SELECCIONE");
@@ -1039,7 +1039,7 @@ public class PersonaC extends javax.swing.JFrame {
         p_nacimiento.setText("");
         p_dni.setText("");
         p_direccion.setText("");
-        p_genero.setSelectedItem("SELECCIONE");
+//        p_genero.setSelectedItem("SELECCIONE");
         p_celular.setText("");
         p_estado.setSelectedItem("SELECCIONE");
         p_estadocivil.setSelectedItem("SELECCIONE");
@@ -1054,7 +1054,7 @@ public class PersonaC extends javax.swing.JFrame {
         per.setFECNACPER(p_nacimiento.getText());
         per.setDNIPER(p_dni.getText());
         per.setDIRPER(p_direccion.getText());
-        per.setGENPER(p_genero.getSelectedItem().toString());
+//        per.setGENPER(p_genero.getSelectedItem().toString());
         per.setCELPER(p_celular.getText());
         per.setESTPER(p_estado.getSelectedItem().toString());
         per.setESTCIVPER(p_estadocivil.getSelectedItem().toString());
@@ -1066,7 +1066,7 @@ public class PersonaC extends javax.swing.JFrame {
         p_nacimiento.setText("01-01-2020");
         p_dni.setText("");
         p_direccion.setText("");
-        p_genero.setSelectedItem("SELECCIONE");
+//        p_genero.setSelected("SELECCIONE");
         p_celular.setText("");
         p_estado.setSelectedItem("SELECCIONE");
         p_estadocivil.setSelectedItem("SELECCIONE");
@@ -1081,7 +1081,7 @@ public class PersonaC extends javax.swing.JFrame {
         personaM.setFECNACPER(p_nacimiento.getText());
         personaM.setDNIPER(p_dni.getText());
         personaM.setDIRPER(p_direccion.getText());
-        personaM.setGENPER(p_genero.getSelectedItem().toString());
+//        personaM.setGENPER(p_genero.getSelectedItem().toString());
         personaM.setCELPER(p_celular.getText());
         personaM.setESTPER(p_estado.getSelectedItem().toString());
         personaM.setESTCIVPER(p_estadocivil.getSelectedItem().toString());
@@ -1094,7 +1094,7 @@ public class PersonaC extends javax.swing.JFrame {
         p_nacimiento.setText("01-01-2020");
         p_dni.setText("");
         p_direccion.setText("");
-        p_genero.setSelectedItem("SELECCIONE");
+//        p_genero.setSelectedItem("SELECCIONE");
         p_celular.setText("");
         p_estado.setSelectedItem("SELECCIONE");
         p_estadocivil.setSelectedItem("SELECCIONE");

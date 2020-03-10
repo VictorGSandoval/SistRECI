@@ -62,7 +62,7 @@ public class PersonaD {
         try {
             if (cn != null) {
                 pst = cn.prepareStatement(sql);
-                pst.setInt(1, Integer.parseInt(clave));
+                pst.setString(1, clave);
                 ResultSet rs = pst.executeQuery();
                 if (rs.next()) {
 //                   
