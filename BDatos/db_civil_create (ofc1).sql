@@ -119,17 +119,16 @@ persona : activo o inactivo (fallece)',
 ) COMMENT 'Esta tabla contiene toda la información de las Personas.';
 
 INSERT INTO `persona` (`IDPER`, `APEPATPER`, `APEMATERPER`, `NOMPER`, `FECNACPER`, `DNIPER`, `DIRPER`, `GENPER`, `CELPER`, `ESTPER`, `ESTCIVPER`) VALUES
-(1, 'Mateo', 'Rojas', 'Jose', '2020-02-14', '60323411', 'Jr. Miraflores N° 165', 'M', '945615432', 'I', 'Casado'),
-(2, 'Mateus', 'Quispe', 'Luis', '02-05-2002', '60352682', 'Jr.Tarapaca', 'M', '948954321', 'A', 'Soltero'),
-(3, 'Marc ', 'Solar ', 'Gaceo', '2020-02-14', '60323413', 'Jr. Unión N° 490', 'M', '987154323', 'I', 'Casado'),
-(4, 'Gonza', 'Velasquez', 'Jose', '02-05-2002', '60352684', 'Jr. 3 de Octubre N° 125', 'M', '988354324', 'A', 'Soltero'),
-(5, 'Hañari', 'Huayanacho', 'Clever', '2020-02-14', '60323415', 'Jr. Tacna N° 562', 'M', '987754325', 'I', 'Viudo'),
-(6, 'Morales', 'Taype', 'Jorge', '02-05-2002', '60352686', 'Jr. Alfonso Ugarte N° 218', 'M', '988884326', 'A', 'Soltero'),
-(7, 'Navarro', 'Tacca', 'Uriel', '2020-02-14', '60323417', 'Jr. Lima N° 133', 'M', '989994327', 'I', 'Divorciado'),
-(8, 'Larico', 'Apaza', 'Mario', '02-05-2002', '60352688', 'Jr. Cultura S/N', 'M', '984494328', 'A', 'Soltero'),
-(9, 'Quispe', 'Vilca', 'Cesario', '2020-02-14', '60323419', 'Jr. San Román N° 415', 'M', '981114329', 'I', 'Soltero'),
-(10, 'Tipo', 'Chura', 'Leonardo', '02-05-2002', '60352610', 'Jr. Arica N° 420', 'M', '984824310', 'A', 'Soltero'),
-(11, 'Sandoval', 'Rosales', 'Geovani', '07-07-2002', '60323413', 'Jr. Tarapaca N° 420', 'M', '984824311', 'A', 'Soltero');
+(1, 'Mateo', 'Rojas', 'Jose', '2020-02-14', '60323416', 'Jr. Miraflores N° 165', 'M', '945615432', 'I', 'Casado'),
+(2, 'Mateus', 'Quispe', 'Luis', '02-05-2002', '60352685', 'Jr.Tarapaca', 'M', '948954321', 'A', 'Soltero'),
+(3, 'Marc ', 'Solar ', 'Gaceo', '2020-02-14', '60323416', 'Jr. Unión N° 490', 'M', '987154323', 'I', 'Casado'),
+(4, 'Gonza', 'Velasquez', 'JOSE', '02-05-2002', '60352685', 'Jr. 3 de Octubre N° 125', 'M', '988354324', 'A', 'Soltero'),
+(5, 'Hañari', 'Huayanacho', 'Clever', '2020-02-14', '60323416', 'Jr. Tacna N° 562', 'M', '987754325', 'I', 'Viudo'),
+(6, 'Morales', 'Taype', 'Jorge', '02-05-2002', '60352685', 'Jr. Alfonso Ugarte N° 218', 'M', '988884326', 'A', 'Soltero'),
+(7, 'Navarro', 'Tacca', 'Uriel', '2020-02-14', '60323416', 'Jr. Lima N° 133', 'M', '989994327', 'I', 'Divorciado'),
+(8, 'Larico', 'Apaza', 'Mario', '02-05-2002', '60352685', 'Jr. Cultura S/N', 'M', '984494328', 'A', 'Soltero'),
+(9, 'Quispe', 'Vilca', 'Cesario', '2020-02-14', '60323416', 'Jr. San Román N° 415', 'M', '981114329', 'I', 'Soltero'),
+(10, 'Tipo', 'Chura', 'Leonardo', '02-05-2002', '60352685', 'Jr. Arica N° 420', 'M', '984824310', 'A', 'Soltero');
 
 
 
