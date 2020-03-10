@@ -122,7 +122,7 @@ INSERT INTO `persona` (`IDPER`, `APEPATPER`, `APEMATERPER`, `NOMPER`, `FECNACPER
 (1, 'Mateo', 'Rojas', 'Jose', '2020-02-14', '60323416', 'Jr. Miraflores N° 165', 'M', '945615432', 'I', 'Casado'),
 (2, 'Mateus', 'Quispe', 'Luis', '02-05-2002', '60352685', 'Jr.Tarapaca', 'M', '948954321', 'A', 'Soltero'),
 (3, 'Marc ', 'Solar ', 'Gaceo', '2020-02-14', '60323416', 'Jr. Unión N° 490', 'M', '987154323', 'I', 'Casado'),
-(4, 'Gonza', 'Velasquez', 'JOSE', '02-05-2002', '60352685', 'Jr. 3 de Octubre N° 125', 'M', '988354324', 'A', 'Soltero'),
+(4, 'Gonza', 'Velasquez', 'Jose', '02-05-2002', '60352685', 'Jr. 3 de Octubre N° 125', 'M', '988354324', 'A', 'Soltero'),
 (5, 'Hañari', 'Huayanacho', 'Clever', '2020-02-14', '60323416', 'Jr. Tacna N° 562', 'M', '987754325', 'I', 'Viudo'),
 (6, 'Morales', 'Taype', 'Jorge', '02-05-2002', '60352685', 'Jr. Alfonso Ugarte N° 218', 'M', '988884326', 'A', 'Soltero'),
 (7, 'Navarro', 'Tacca', 'Uriel', '2020-02-14', '60323416', 'Jr. Lima N° 133', 'M', '989994327', 'I', 'Divorciado'),
